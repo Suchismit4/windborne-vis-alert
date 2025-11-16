@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloons & Flight Paths</title>
+    <link href="https://unpkg.com/maplibre-gl@^5.12.0/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <div id="map"></div>
+
+    <div id="legend" class="map-legend">
+        <h4>Legend</h4>
+        <div class="legend-item">
+            <span class="legend-swatch legend-balloons"></span>
+            <span>Balloons</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-swatch legend-flights"></span>
+            <span>Flights</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-swatch legend-nearby"></span>
+            <span>Nearby Flights</span>
+        </div>
+    </div>
+
+    <!-- Maplibre GL -->
+    <script src="https://unpkg.com/maplibre-gl@^5.12.0/dist/maplibre-gl.js"></script>
+    <!-- End Maplibre GL -->
+    <!-- End Script -->
+    <script src="/js/particles.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
